@@ -1,0 +1,19 @@
+{
+  "fullname": "Shon Macray",
+  "jobtitle": "Software Engineer",
+  "contact": {
+    "email": "shonmacray@gmail.com",
+    "github": "https://github.com/shonmacray",
+    "twitter": "https://twitter.com/shon_macray",
+    "linkedIn": "https://www.linkedin.com/in/shon-macray/",
+    "number": "+256751238545"
+  },
+  "bio": "Am cool.",
+  "links": [
+    {"anchor": "projects", "content": [
+      {"name": "Coming soon", "media": "here", "about": "comming..."},
+      {"name": "Coming soon", "media": "here", "about": "comming..."},
+      {"name": "Coming soon", "media": "here", "about": "comming..."}
+    ]}
+  ]
+}
