@@ -23,23 +23,20 @@ class Person{
     res.json(links)
   }
   getLinkContent(req, res){
-    const tag =  req.params.id;
     const contents = this.myObj.anchors
 
-    let dataFound = false
+    let data = false;
 
-
-    for(let content = 0; content < contents.length; content++){
-      if(contents[content].tag === tag){
-        dataFound = true
-        res.json(contents[content].content)
-      }else{
-        dataFound = false
-      }
+    for(let i =0; i < contents.length; i++){
+     if(contents[i].tag === req.params.id){
+       data = true
+       res.json(contents[i])
+     }
     }
-    if(!dataFound){
-      res.status(500).send("Data couldn't be found!")
+    if(!data){
+        res.send("hello")
     }
+    
   }
 }
 
