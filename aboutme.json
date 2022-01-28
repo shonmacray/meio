@@ -1,18 +1,21 @@
 {
-  "fullname": "Shon Macray",
-  "jobtitle": "Software Engineer",
-  "contact": {
-    "email": "shonmacray@gmail.com",
-    "github": "https://github.com/shonmacray",
-    "twitter": "https://twitter.com/shon_macray",
-    "linkedIn": "https://www.linkedin.com/in/shon-macray/",
-    "number": "+256751238545"
+  "profile": {
+    "fullnames": "Shon Macray",
+    "jobtitle": "Software Engineer",
+    "contact": {
+      "email": "shonmacray@gmail.com",
+      "github": "https://github.com/shonmacray",
+      "twitter": "https://twitter.com/shon_macray",
+      "linkedIn": "https://www.linkedin.com/in/shon-macray/",
+      "number": "+256751238545"
+    },
+    "bio": "Am cool as an ice"
   },
-  "bio": "Am cool. as ice oh yeah",
-  "links": [
-    {"anchor": "projects", "content": [
-      {"name": "Coming soon", "media": "here", "about": "comming..."},
-      {"name": "Coming soon", "media": "here", "about": "comming..."},
+  "anchors": [
+    {"tag":"projects", "content": [
+      {"name": "Me.io", "media": "here", "about": "Already created api for you portifolio website", "links": "https://github.com/shonmacray/me.io"}
+    ]},
+    {"tag":"maker", "content": [
       {"name": "Coming soon", "media": "here", "about": "comming..."}
     ]}
   ]
