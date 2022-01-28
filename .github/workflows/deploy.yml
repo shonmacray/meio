@@ -1,9 +1,10 @@
 name: Deploy Heroku
 on: [push]
+
 jobs:
-  build:
-  runs-on: ubuntu-latest
-  steps:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
     - uses: actions/checkout@v2
     - uses: akhileshns/heroku-deploy@v3.12.12
       with: 
