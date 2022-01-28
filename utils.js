@@ -34,7 +34,7 @@ class Person{
      }
     }
     if(!data){
-        res.send("hello")
+        res.send("Link not found!")
     }
     
   }
